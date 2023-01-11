@@ -10,8 +10,13 @@ https://github.com/Telentovj/tpp
 https://github.com/Jcheez/capstone-nlp
 
 ###
-Here there are four .ipynb files that can be used for 
-   extracting named entities within a text
-   doing weak supervision to get emotion and stance labels [I have done it in the fake news detection setting]
-   finding the agreement between classifiers
-   sentence pair classification: given a text and features, predict the subsequent label. In my use case. given a document, a target, the emotion, and the stance, predict if the text is fake news or not
+Here there are four .ipynb files that can be used for: 
+
+
+extracting named entities within a text
+
+doing weak supervision to get emotion and stance labels [I have done it in the fake news detection setting]
+
+finding the agreement between classifiers
+
+sentence pair classification: given a text and features, predict the subsequent label. In my use case. given a document, a target, the emotion, and the stance, predict if the text is fake news or not
