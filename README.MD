@@ -1,15 +1,19 @@
 This is a project for Text Analytics for Psychological-Information Research
 
+##MAIN IDEA
+
 The main idea is to aggregate resources here that a computational social scientist might use to analyse psychological aspects within text data. 
 Assuming you have a large chunnk of text data that you want to parse, here are some helpful tips for you
 
-##Preprocessing, extracting a sample for annotations
+##RELEVANT TOOLS
+
+**Preprocessing**, **extracting a sample for annotations**
 https://github.com/Telentovj/tpp
 
-##Post-processing, Text Summarisation, Time series dashboard
+**Post-processing, Text Summarisation, Time series dashboard**
 https://github.com/Jcheez/capstone-nlp
 
-###
+##IPYNB FILES
 Here there are four .ipynb files that can be used for: 
 
 
