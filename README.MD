@@ -25,7 +25,7 @@ Here there are four .ipynb files that can be used for:
   
 ## Recipes for projects
 
-RECIPE: TEXT CLASSIFICATION
+**RECIPE: TEXT CLASSIFICATION** <br />
 Assuming that you have collected a large chunk of text data and you want to train a classifier to label it by topics. <br />
  step 1: use the preprocessing code to split into probable topics and it can extract a representative sample from the text data <br />
  step 2: relabel your data into various topics (e.g., for hate speech: us-versus-them, death threats, etc.) <br />
@@ -34,7 +34,7 @@ Assuming that you have collected a large chunk of text data and you want to trai
      step 3.1.1 An imbalanced dataset comes about when you have usually one class that has around 2x more records than another class. This would bias the model towards predicting that class. <br /> Solutions for that include SMOTE or topping up the data. <br />
      step 3.2: Adding more data can be done by either using a classifier to add more data or data augmentation techniques. Data Augmentation can be tricky to do without introducing biases in your training data <br />
 
-RECIPE: TEXT SUMMARISATION <br />
+**RECIPE: TEXT SUMMARISATION** <br />
  Assuming that you want to summarise a transcript, put it in a text file and use the postprocessing code and select the option to summarise the data <br />
 
  It can be useful for quickly sensitising yourself to the broad strokes of the content through a data-centred approach <br />
@@ -44,7 +44,7 @@ RECIPE: TEXT SUMMARISATION <br />
 <br />
 
  
-RECIPE: EMOTION/STANCE CLASSIFICATION<br />
+**RECIPE: EMOTION/STANCE CLASSIFICATION** <br />
 
  This is the same for text classification, except that the categories are fixed (anger, fear, sad, happy, AGAINST or FAVOR etc.) <br />
 
@@ -58,3 +58,5 @@ RECIPE: EMOTION/STANCE CLASSIFICATION<br />
  
  Step 3: train the predicted data on a ML classifier. If the F1 is around or above >.8, you can try to use that dataset for classification on unseen data <br />
 
+**Upcoming developments**
+Multi-lingual
