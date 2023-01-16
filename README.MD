@@ -25,7 +25,7 @@ Here there are four .ipynb files that can be used for:
   
 ## Recipes for projects
 
-Assuming that you have collected a large chunk of text data and you want to train a classifier to label it by topics.
+Assuming that you have collected a large chunk of text data and you want to train a classifier to label it by topics. <br />
  step 1: use the preprocessing code to split into probable topics and it can extract a representative sample from the text data <br />
  step 2: relabel your data into various topics (e.g., for hate speech: us-versus-them, death threats, etc.) <br />
  step 3: train the relabelled data on a ML classifier. If the F1 is around or above >.8, you can try to use that dataset for classification <br />
