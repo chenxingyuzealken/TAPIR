@@ -26,9 +26,9 @@ Here there are four .ipynb files that can be used for:
 ## Recipes for projects
 
 Assuming that you have collected a large chunk of text data and you want to train a classifier to label it by topics.
- step 1: use the preprocessing code to split into probable topics and it can extract a representative sample from the text data
- step 2: relabel your data into various topics (e.g., for hate speech: us-versus-them, death threats, etc.)
- step 3: train the relabelled data on a ML classifier. If the F1 is around or above >.8, you can try to use that dataset for classification
-     step 3.5: When accuracy is not ideal, usually the solutions are to ensure that the dataset is balanced or add more data
+ step 1: use the preprocessing code to split into probable topics and it can extract a representative sample from the text data <br />
+ step 2: relabel your data into various topics (e.g., for hate speech: us-versus-them, death threats, etc.) <br />
+ step 3: train the relabelled data on a ML classifier. If the F1 is around or above >.8, you can try to use that dataset for classification <br />
+     step 3.5: When accuracy is not ideal, usually the solutions are to ensure that the dataset is balanced or add more data <br />
 
 Assuming that you want to summarise a transcript, put it in a text file and use the postprocessing file
