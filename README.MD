@@ -13,6 +13,12 @@ https://github.com/Telentovj/tpp
 **Post-processing, Text Summarisation, Time series dashboard**
 https://github.com/Jcheez/capstone-nlp
 
+**Multilingual Text Classification**
+https://github.com/chengjiangg/BT4103-Group3
+
+**Explainer**
+https://github.com/darellelogram/langsplain
+
 ## IPYNB FILES
 Here there are four .ipynb files that can be used for: 
  + extracting named entities within a text
@@ -52,8 +58,7 @@ Assuming that you have collected a large chunk of text data and you want to trai
  Step 1: Extract the entities using NER. Then select entities of interest <br />
 
  Step 2: You could use emotion/stance classifiers that are available and get the labels which both classifiers agree upon. <br />
-   &emsp; step 2.1: In the literature, this step is known as weak supervision. I know we can try zero-shot, but zero-shot classification can be slow, 
-     although I have not tried benchmarking it yet
+   &emsp; step 2.1: In the literature, this step is known as weak supervision. I know we can try zero-shot, but zero-shot classification can be slower but in my own experiments, using Flan-T5 XL helps in finding informative features more than fine-tuned models
  
  Step 3: train the predicted data on a ML classifier. If the F1 is around or above >.8, you can try to use that dataset for classification on unseen data <br />
 
