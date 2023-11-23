@@ -16,8 +16,11 @@ https://github.com/Jcheez/capstone-nlp
 **Multilingual Text Classification**
 https://github.com/chengjiangg/BT4103-Group3
 
-**Explainer**
+**Explainer of text classification**
 https://github.com/darellelogram/langsplain
+
+**Accelerating Literature Reviews with ChatGPT***
+https://github.com/hwhmervyn/researchXpress_Capstone
 
 ## IPYNB FILES
 Here there are four .ipynb files that can be used for: 
