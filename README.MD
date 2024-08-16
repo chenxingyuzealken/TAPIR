@@ -67,4 +67,3 @@ Assuming that you have collected a large chunk of text data and you want to trai
 
 ## Upcoming developments
 
-Multi-lingual text classification
